@@ -10,12 +10,15 @@
 
 <body>
     <center>
-        <h1>PROYECTO</h1>
+        <h1 class="bg-primary">PROYECTO</h1>
 
+        <div id="explicacion">
+            <p>bla bla bla bla bla</p>
+        </div>
         <div id="peticion">
-            <input type="text" id="pet" name="pet" placeholder="ingrese la peticion" onkeydown="isEven(event)">
+            <input type="text" class="control-label" id="pet" name="pet" placeholder="ingrese la peticion" onkeydown="isEven(event)">
 
-            <button class="btn" type="button" value="preguntar" onclick="preguntar()">PREGUNTAR</button>
+            <button class="btn btn-primary btn-lg " type="button" value="preguntar" onclick="preguntar()">PREGUNTAR</button>
 
         </div>
 
@@ -25,11 +28,13 @@
         </div>
 
         <div id="respuesta">
-            <input type="text" id="res" name="res">
+            <input type="text" id="res" name="res" placeholder="estoy pensando...mmm...">
         </div>
 
-    </center>
 
+
+
+    </center>
 
 </body>
 <script src="librery/jquery-3.2.1.min.js"></script>
