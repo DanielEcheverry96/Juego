@@ -1,14 +1,17 @@
 body {
-    background-color: skyblue;
+    background-color: #94618E;
 }
 
 #peticion > input {
     height: 50px;
-    width: 300px;
-    border: 2px solid black;
-    margin: 0px auto;
+    width: 605px;
+	border:1px solid #ccc;
+	border-radius:10px;
+	box-shadow:5px 5px 10px #CAEBF2;
+ 	margin-top: 10px;
     padding: 16px;
     font-size: 20px;
+    text-align: center;
     background-color: bisque;
 
 }
@@ -16,40 +19,48 @@ body {
 .btn {
     height: 50px;
     width: 300px;
-    border: 2px solid black;
+	border-radius:10px;
+	box-shadow:5px 5px 10px #F6323F;
     margin: 0px auto;
     font-size: 20px;
-    background-color: chartreuse;
-
-
+    background-color: #F6323F;
 }
 
 #pregunta > input {
     height: 50px;
     width: 605px;
-    border: 2px solid black;
-    margin: 0px auto;
+	border:1px solid #ccc;
+	border-radius:10px;
+	box-shadow:5px 5px 10px #DCD0C0;
+ 	margin-top: 10px;
     padding: 16px;
     font-size: 20px;
+    text-align: center;
     background-color: bisque;
 }
 
-#respuesta > input {
-    height: 50px;
-    width: 605px;
-    border: 2px solid black;
-    margin: 0px auto;
-    padding: 16px;
-    font-size: 20px;
-    background-color: bisque;
+#respuesta{
+	position:relative;
+	margin:10px auto;
+	width:45%;
+	background:white;
+	border:1px solid #ccc;
+	border-radius:10px;
+	box-shadow:5px 5px 10px #C0B283;
+	padding:3%;
+	text-align:center;
+	font-size:25px;
+	overflow:hidden;
 }
 
 #explicacion {
-    height: 300px;
+    height: 200px;
     width: 500px;
-    border: 2px solid black;
+	border:1px solid #ccc;
+	border-radius:10px;
+	box-shadow:5px 5px 10px #C0B283;
     margin: 0px auto;
     padding: 16px;
     font-size: 20px;
-    background-color: chartreuse;
+    background-color: #F4DECB;
 }
