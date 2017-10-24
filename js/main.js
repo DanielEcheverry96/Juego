@@ -14,9 +14,14 @@ function initLogic(e) {
 
 	if (e.keyCode == 190) {
 
-			respuesta.innerHTML = txt;
+		for (i = 0; i < respu.length; i++) {
+			respu[i] = e.keyCode;
 		}
-		//respuesta.innerHTML = respu.length;
 	}
+	//respuesta.innerHTML = respu.length;
+}
 
+function preguntar() {
 
+	respuesta.innerHTML = respu;
+}
