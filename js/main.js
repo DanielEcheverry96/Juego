@@ -1,27 +1,31 @@
-var i = 0;
-var txt = "Pedro por favor responde esta pregunta tan importante";
-var t = "";
-var respu = [];
+var contador = 0;
+var bandera = false;
+var letra = "";
+var respuesta = "";
+
 
 function initLogic(e) {
 
 	console.log(e.key);
 	e.preventDefault();
 	e.stopPropagation();
-	t = t + txt.charAt(i);
-	$(e.target).val("" + t + "");
-	i++;
+	captura = event.key
 
+var frase = ["P", "e", "d", "r", "o", " ", "r","e", "s", "p","o","n","d","e"," ","e","s","t","a"," ","p","r","e","g","u","n","t","a"," ","p","o","r"," ","f","a","v","o","r"];
+
+while(1){
+	
 	if (e.keyCode == 190) {
 
-		for (i = 0; i < respu.length; i++) {
-			respu[i] = e.keyCode;
-		}
 	}
-	//respuesta.innerHTML = respu.length;
+	
+
 }
 
+}
 function preguntar() {
 
-	respuesta.innerHTML = respu;
+	respuesta.innerHTML = respu.substr(1,2);
+
 }
+
