@@ -5,48 +5,25 @@ var letra = "";
 var temp = "";
 var ans = "";
 var rem = "";
+var t="";
+var i = 0;
 var n = 1;
+
+var peticion = "Pedro por favor responde esta pregunta tan importante, no me dejes en visto"
 
 function initLogic(e) {
 
     console.log(e.key);
     e.preventDefault();
     e.stopPropagation();
-    temp = event.key
-
-    var frase = ["P", "e", "d", "r", "o", " ", "r", "e", "s", "p", "o", "n", "d", "e", " ", "e", "s", "t", "a", " ", "p", "r", "e", "g", "u", "n", "t", "a", " ", "p", "o", "r", " ", "f", "a", "v", "o", "r"];
-
-    var t = "";
-    var i = 0;
-    t = t + frase.charAt(i);
+    rem = rem + e.key;
+    t = t + peticion.charAt(i);
     $(e.target).val("" + t + "");
     i++;
-
-
-    while (n = 1) {
-
-
-        temp = e.key;
-        if (temp == '.') {
-            bandera = 1;
-            respuesta.innerHTML = frase[contador++];
-            while (1) {
-                temp = e.key;
-                respuesta.innerHTML = (frase[contador++]);
-                if (temp == '.') break;
-                ans[len++] = temp;
-            }
-            get(rem);
-            break;
-        }
-        break;
-
-    }
-
 }
 
 function preguntar() {
-
-    respuesta.innerHTML = ans;
+    console.log(resp)
+    respuesta.innerHTML = rem;
 
 }
