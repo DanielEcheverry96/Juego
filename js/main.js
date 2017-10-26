@@ -23,7 +23,30 @@ function initLogic(e) {
 }
 
 function preguntar() {
-    console.log(resp)
-    respuesta.innerHTML = rem;
+    var re = "";
+    var pos1;
+    var pos2;
+    for (var w = 0; w < rem.length; w++){
+        if  (rem.charAt(w) == '.'){
+            pos1 =w;
+            break;
+        }
+    }
+    
+    for (var x = pos1+1; x < rem.length; x++){
+        if  (rem.charAt(x) == '.'){
+            pos2 =x;
+            break;
+        }
+    }
+    
+    for (var q = pos1+1; q < pos2; q++){
+        re = re + rem.charAt(q);
+    }
+    //console.log(pos1);
+    //console.log(pos2);
+    //console.log(re);
+    
+    respuesta.innerHTML = re;
 
 }
