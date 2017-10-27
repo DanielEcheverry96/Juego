@@ -5,10 +5,10 @@ body {
 #peticion > input {
     height: 50px;
     width: 605px;
-	border:1px solid #ccc;
-	border-radius:10px;
-	box-shadow:5px 5px 10px #CAEBF2;
- 	margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #CAEBF2;
+    margin-top: 10px;
     padding: 16px;
     font-size: 20px;
     text-align: center;
@@ -19,8 +19,8 @@ body {
 .btn {
     height: 50px;
     width: 300px;
-	border-radius:10px;
-	box-shadow:5px 5px 10px #F6323F;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #F6323F;
     margin: 0px auto;
     font-size: 20px;
     background-color: #F6323F;
@@ -29,36 +29,36 @@ body {
 #pregunta > input {
     height: 50px;
     width: 605px;
-	border:1px solid #ccc;
-	border-radius:10px;
-	box-shadow:5px 5px 10px #DCD0C0;
- 	margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #DCD0C0;
+    margin-top: 10px;
     padding: 16px;
     font-size: 20px;
     text-align: center;
     background-color: bisque;
 }
 
-#respuesta{
-	position:relative;
-	margin:10px auto;
-	width:45%;
-	background:white;
-	border:1px solid #ccc;
-	border-radius:10px;
-	box-shadow:5px 5px 10px #C0B283;
-	padding:3%;
-	text-align:center;
-	font-size:25px;
-	overflow:hidden;
+#respuesta {
+    position: relative;
+    margin: 10px auto;
+    width: 45%;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #C0B283;
+    padding: 3%;
+    text-align: center;
+    font-size: 25px;
+    overflow: hidden;
 }
 
 #explicacion {
     height: 200px;
     width: 500px;
-	border:1px solid #ccc;
-	border-radius:10px;
-	box-shadow:5px 5px 10px #C0B283;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #C0B283;
     margin: 0px auto;
     padding: 16px;
     font-size: 20px;
